@@ -5,7 +5,7 @@ Predicting the Quality of White Wine
 Dataset
 
 Introduction:
-Wine is a popular drink that has been around for thousands of years. Many factors influence the quality of wine including acidity, residual sugar, chlorides, pH, etc. By observing these characteristics we can predict qualities of certain white wines. One example would be how grapes grown in warmer regions produce “bolder and fruitier” wines due to the grapes ripening easier in these areas. This results in lower acidity levels and higher sugar levels in the grape itself (in-text-1). The dataset that we are using for this project is from Kaggle which calculates a quality score of Northern Portugal wine samples from 0-10 based on 11 properties. 
+Wine is a popular drink that has been around for thousands of years. Many factors influence the quality of wine including acidity, residual sugar, chlorides and pH level. By observing these characteristics we can predict qualities of certain white wines. One example would be how grapes grown in warmer regions produce “bolder and fruitier” wines due to the grapes ripening easier in these areas. This results in lower acidity levels and higher sugar levels in the grape itself (Gambetta). The dataset that we are using for this project is from Kaggle which calculates a quality score of Northern Portugal wine samples from 0-10 based on 11 properties. 
 
 Problem Definition:
 With its history, comes a group of wine tasters claiming that they can tell the best wines apart from the others. While they do have the experience, we hope to create a machine learning model that can help beginner wine tasters choose better wines over others – without the years of experience required.
@@ -21,9 +21,9 @@ Contribution Table:
 Sahil Punwani
 Found sources, cited them, worked on the methods paragraph
 Kevin Zhao
-Defined possible models and metrics to analyze results and compare models.
+Defined possible models and metrics to analyze results and compare models
 Srikar Narayan
-Problem Definition and found references. Made presentation for video
+Worked on the problem definition portion. Made/recorded presentation for video
 Gopesh Singal
 Analyzed potential results and points for discussion
 Anvita Garikiparthi
@@ -34,9 +34,6 @@ Work Schedule:
 https://docs.google.com/spreadsheets/d/1Lr2b6_GL1KmeBhS_Sq4tzdEEnrQt0XKO1JTamflArmE/edit?usp=sharing
 
 References:
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6155627/
-https://www.mdpi.com/1420-3049/26/3/718#cite
-
  Gambetta, Joanna Metal. “Exploring the Effects of Geographical Origin on the Chemical Composition and Quality Grading of Vitis vinifera L. cv. Chardonnay Grapes.” Molecules (Basel, Switzerland) vol. 22,2 218. 31 Jan. 2017, doi:10.3390/molecules22020218
 Jordão, António M., et al. Edited by Lorenzo Stafford, 2015, From Sugar of Grape to Alcohol of Wine: Sensorial Impact of Alcohol in Wine. 
 Gutiérrez-Escobar, Rocío, et al. “Wine Polyphenol Content and Its Influence on Wine Quality and Properties: A Review.” Molecules, vol. 26, no. 3, Jan. 2021, p. 718. Crossref, https://doi.org/10.3390/molecules26030718.
