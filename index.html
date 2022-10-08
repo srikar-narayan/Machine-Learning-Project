@@ -37,8 +37,19 @@
       }
       img {
         height: 250px;
-        /* float: right; */
-        /* margin-left: 20px; */
+      }
+      table {
+        border: 1px solid black;
+        border-collapse: collapse;
+      }
+      tr:not(:last-child) td {
+        border-bottom: 1px solid black;
+      }
+      td {
+        padding: 5px 10px;
+      }
+      td:first-child {
+        border-right: 1px solid black;
       }
     </style>
   </head>
@@ -49,7 +60,7 @@
     <img src="wine.jpg" />
     <h2>Introduction</h2>
     <p>
-      Wine is a popular drink that has been around for thousands of years. Many factors influence the quality of wine including acidity, residual sugar, chlorides, pH, etc. By observing these characteristics we can predict qualities of certain white wines. One example would be how grapes grown in warmer regions produce “bolder and fruitier” wines due to the grapes ripening easier in these areas. This results in lower acidity levels and higher sugar levels in the grape itself (Gambetta). The <a href="https://docs.google.com/spreadsheets/d/1PfjFaDJTN9jk7kNIJJ5MhET9aXkUVDK6dpPwYtvCYL8/edit?usp=sharing" target="_blank" rel="noreferrer"><h2>dataset</h2></a> that we are using for this project is from Kaggle which calculates a quality score of Northern Portugal wine samples from 0-10 based on 11 properties. 
+      Wine is a popular drink that has been around for thousands of years. Many factors influence the quality of wine including acidity, residual sugar, chlorides, pH, etc. By observing these characteristics we can predict qualities of certain white wines. One example would be how grapes grown in warmer regions produce “bolder and fruitier” wines due to the grapes ripening easier in these areas. This results in lower acidity levels and higher sugar levels in the grape itself (Gambetta). The <a href="https://docs.google.com/spreadsheets/d/1PfjFaDJTN9jk7kNIJJ5MhET9aXkUVDK6dpPwYtvCYL8/edit?usp=sharing" target="_blank" rel="noreferrer">dataset</a> that we are using for this project is from Kaggle which calculates a quality score of Northern Portugal wine samples from 0-10 based on 11 properties. 
     </p>
     
     <h2>Problem Definition</h2>
@@ -64,7 +75,7 @@
 
     <h2>Potential Results and Discussion</h2>
     <p>
-      To analyze the potential results regarding the wine quality predictions, each of the developed models’ accuracies will be determined using a subset of the dataset designated for testing; through this comparison the model best-suited for wine prediction can be determined. With an accurate model, one may evaluate the quality of wine without the prior experience that is usually necessary. With an effective model, the white wine industry can implement the research to grade their products, eliminating the potential bias from human testing and expediting the testing process. For future applications, additional parameters for the wine can be examined to detect if more conditions affect the wine quality. Furthermore, red wines and more alcohol types can be considered for future developments.
+      To analyze the potential results regarding the wine quality predictions, each of the developed models' accuracies will be determined using a subset of the dataset designated for testing; through this comparison the model best-suited for wine prediction can be determined. With an accurate model, one may evaluate the quality of wine without the prior experience that is usually necessary. With an effective model, the white wine industry can implement the research to grade their products, eliminating the potential bias from human testing and expediting the testing process. For future applications, additional parameters for the wine can be examined to detect if more conditions affect the wine quality. Furthermore, red wines and more alcohol types can be considered for future developments.
     </p>
     
     <a href=https://youtu.be/BiCE8OL_n_U target="_blank" rel="noreferrer"><h2>Video Proposal</h2></a>
