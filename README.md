@@ -1,4 +1,4 @@
-# Predicting the Quality of White Wine
+# Predicting the Quality of White Wines
 Machine Learning Project for CS-4641
 Predicting the Quality of White Wine
 
